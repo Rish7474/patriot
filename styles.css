@@ -1,19 +1,46 @@
-.indexBack{
+#indexBack{
   background: url("indexWallpaper.jpg");
   min-height: 100%;
+  max-width: 100%;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-};
+}
 
-.countryBack{
-  background: url("usaWallpaper.jpg");
+#countryBack{
+  background-image: url("usaWallpaper.jpg");
   min-height: 100%;
+  max-width: 100%;
+  backface-visibility: visible;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-};
+}
+
+#countryHead{
+  position: relative;
+  left: 50%;
+  color: white;
+}
+
+#flag{
+  position: absolute;
+  left: 94%;
+  top: 2%;
+  width: 5%;
+}
+
+#title{
+  position: relative;
+  top: 20%;
+  font-size: 5vw;
+}
+
+#anthem{
+  position: relative;
+  font-size: 2vw;
+}
