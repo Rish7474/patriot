@@ -1,5 +1,6 @@
 .indexBack{
   background: url("indexWallpaper.jpg");
+  min-height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 };
